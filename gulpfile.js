@@ -26,7 +26,7 @@ gulp.task('browserSync', function () {
         },
         open: true,
         injectChanges: true,
-        notify: true,
+        notify: false,
         files: [
             './*.html',
             dirs.devStyles.src + '/**/*.scss'
